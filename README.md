@@ -12,4 +12,3 @@ APK yang dihasilkan adalah debug build yang sudah bertanda tangan debug, jadi la
 
 ## Build lokal
 Buka di Android Studio (Hedgehog atau lebih baru), JDK 17, Gradle 8.7, lalu Run.
-# Music
