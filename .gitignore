@@ -1,6 +1,14 @@
-build/
-.gradle/
-local.properties
-.idea/
-*.iml
+# Biner aplikasi orisinal / arsip besar — jangan pernah di-commit
+*.apk
+*.zip
+*.msi
+*.ipa
+
+# Screenshot referensi: dipakai untuk perbandingan, tidak boleh ikut terbit
+replica/screens/*
+!replica/screens/.gitkeep
+
+# Editor / OS
 .DS_Store
+.idea/
+.vscode/

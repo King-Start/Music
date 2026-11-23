@@ -1,4 +1,18 @@
-pluginManagement{repositories{google();mavenCentral();gradlePluginPortal()}}
-dependencyResolutionManagement{repositories{google();mavenCentral()}}
-rootProject.name="Lumora"
+pluginManagement {
+    repositories {
+        google()
+        mavenCentral()
+        gradlePluginPortal()
+    }
+}
+
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+
+rootProject.name = "RPlayer"
 include(":app")

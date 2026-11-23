@@ -1,0 +1,40 @@
+feature,area,priority,original,clone,notes
+Browse library by songs/albums/artists/playlists,library,must,yes,yes,Fase 1: MediaStore scan + Room
+Search across local/user-owned library,search,must,yes,yes,Fase 1: filter lokal
+Play a track with background playback and no ads,playback,must,yes,yes,Fase 1: Media3 MediaSessionService
+"Queue: add next, reorder, remove, repeat, shuffle",queue,must,yes,partial,"Fase 1: add next, remove, shuffle, repeat; drag reorder belum"
+Create/edit playlists and reorder songs,playlists,must,yes,partial,"Fase 1: buat/hapus playlist, tambah/hapus lagu; drag reorder belum"
+"Like/favorite plus auto collections (liked, recent, top)",library,must,yes,partial,Fase 1: favorit + recent; top100/uploaded/history belum
+Mini player and notification playback controls,playback,must,yes,yes,Fase 1: MiniPlayer + notifikasi Media3
+Offline playback from downloaded/user-owned audio,offline,must,yes,yes,Fase 1: file lokal; download in-app belum
+Guest mode without sign-in,onboarding,must,yes,yes,Fase 1: tidak ada login
+Sleep timer with finish-song and fade options,playback,should,yes,no,Fase 2
+"Equalizer profiles, bands and preamp",audio,should,yes,no,"Fase 2; desain ulang, bukan AutoEq milikoriginal"
+Independent tempo and pitch controls,audio,should,yes,no,Fase 2
+Synchronized lyrics view,lyrics,should,yes,no,Fase 3; butuh penyedia lirik berlisensi
+Lyrics translation and romanization,lyrics,should,yes,no,Fase 3; tergantung penyedia
+Download manager with storage limits and cache clear,offline,should,yes,no,Fase 2
+Selectable player/thumbnail/mini-player styles,appearance,should,yes,no,"Fase 3; gaya baru, bukan milik Auralys"
+Theme palette switch (own branding),appearance,should,yes,no,Fase 3; ganti nama Editorial/Liquid Glass
+Audio normalization and silence skip,audio,should,yes,no,Fase 2
+Import playlists from other clients,import,should,yes,no,Fase 3; format publik saja
+"Content filters (explicit, SFW, AI-generated)",filters,should,yes,no,Fase 3
+Video playback mode,playback,should,yes,no,Fase 3; sumber video user-owned
+Share songs and playlists,sharing,should,yes,no,Fase 3
+Batch selection and actions on lists,library,should,yes,no,Fase 3
+Listen Together synchronized rooms,social,could,yes,no,"Fase 4; butuh server sendiri, bukan metroserver"
+Device Connect pairing and LAN transfer,devices,could,yes,no,Fase 4; protokol baru ditulis ulang
+Casting to Chromecast/DLNA/FCast,devices,could,yes,no,Fase 4; SDK publik
+Last.fm and ListenBrainz scrobbling,integrations,could,yes,no,Fase 4; kunci user sendiri
+Discord rich presence,integrations,could,yes,no,Fase 4
+Music recognition,integrations,could,yes,no,Fase 4; API berbayar/berlisensi
+Listening stats/wrapped recap,stats,could,yes,no,Fase 4; data lokal saja
+YouTube Music catalog and streams,content,skip,yes,skip,endpoint privat + ToS; tidak bisa ditiru
+Sign in with YouTube/Google account sync,onboarding,skip,yes,skip,tidak boleh memakai akun/endpoint privat
+Premium-quality streams or DRM bypass,content,skip,yes,skip,melanggar ToS dan lisensi
+SponsorBlock segment data,integrations,skip,yes,skip,lisensi CC BY-NC-SA 4.0 = non-komersial
+Canvas from Apple Music/Spotify/YouTube Music,content,skip,yes,skip,aset pihak ketiga berlisensi
+Bundled third-party lyrics and artwork,content,skip,yes,skip,perlu lisensi; minta user membawa kunci sendiri
+"Auralys/Metrolist name, logo, icons, themes and copy",brand,skip,yes,skip,wajib rebrand sebelum rilis
+iOS and desktop builds,platform,skip,yes,skip,di luar scope Android yang dipilih
+"Original servers, rooms and user network",social,skip,yes,skip,jaringan dan data milik pihak lain
