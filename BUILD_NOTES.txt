@@ -1,0 +1,17 @@
+RPlayer - PAKET SOURCE SAJA
+==========================
+
+PENTING: ZIP ini BELUM berisi APK. Build debug sedang berjalan.
+Setelah APK jadi, paket final akan bernama RPlayer-full-debug.zip dan
+akan berisi RPlayer-debug.apk + source.
+
+Cara build:
+  export JAVA_HOME=/usr/lib/jvm/java-17-openjdk-arm64
+  export ANDROID_HOME=<path-android-sdk>
+  ./gradlew assembleDebug  (atau gradle assembleDebug)
+
+Isi aplikasi (source):
+- Pemutar audio lokal Media3/ExoPlayer + MediaSessionService
+- MediaStore scan, pencarian, favorit, playlist Room
+- Home, Search, Library, detail playlist, Player, antrean, Settings
+- Mini player + notifikasi media
